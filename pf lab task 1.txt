@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int num_1 = 50;
+    float num_2 = 97;
+    int sum = num_2 + num_1;
+    int difference = num_2 - num_1;
+    int product = num_2 * num_1;
+    int division = num_2 / num_1;
+    int average = num_2 + num_1 / 2;
+    int percentage = num_2 / num_1 * 100;
+    cout<<"The sum of the numbers is "<<sum<<endl;
+    cout<<"The difference of the numbers is "<<difference<<endl;
+    cout<<"The product of the numbers is "<<product<<endl;
+    cout<<"The division of the numbers is "<<division<<endl;
+    cout<<"The average of the numbers is "<<average<<endl;
+    cout<<"The percentage of the numbers is "<<percentage<<endl;
+    return 0;
+}
